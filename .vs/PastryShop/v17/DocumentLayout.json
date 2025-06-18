@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|c:\\users\\\u0027seyi\\desktop\\projs\\e-commerce\\pastryshop\\pastryshop\\pastryshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|solutionrelative:pastryshop\\pastryshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|c:\\users\\\u0027seyi\\desktop\\projs\\e-commerce\\pastryshop\\pastryshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|solutionrelative:pastryshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|c:\\users\\\u0027seyi\\desktop\\projs\\e-commerce\\pastryshop\\pastryshop\\models\\pie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|solutionrelative:pastryshop\\models\\pie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|c:\\users\\\u0027seyi\\desktop\\projs\\e-commerce\\pastryshop\\pastryshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CD1255-028A-4856-B733-F158C26B4308}|PastryShop\\PastryShop.csproj|solutionrelative:pastryshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PastryShop",
+              "DocumentMoniker": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\PastryShop.csproj",
+              "RelativeDocumentMoniker": "PastryShop\\PastryShop.csproj",
+              "ToolTip": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\PastryShop.csproj",
+              "RelativeToolTip": "PastryShop\\PastryShop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-18T14:48:12.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PastryShop\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Models\\Category.cs",
+              "RelativeToolTip": "PastryShop\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:39:25.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pie.cs",
+              "DocumentMoniker": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Models\\Pie.cs",
+              "RelativeDocumentMoniker": "PastryShop\\Models\\Pie.cs",
+              "ToolTip": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Models\\Pie.cs",
+              "RelativeToolTip": "PastryShop\\Models\\Pie.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T13:22:46.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Program.cs",
+              "RelativeDocumentMoniker": "PastryShop\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0027Seyi\\Desktop\\PROJS\\E-COMMERCE\\PastryShop\\PastryShop\\Program.cs",
+              "RelativeToolTip": "PastryShop\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:18:28.326Z",
+              "EditorCaption": ""
             }
           ]
         }
