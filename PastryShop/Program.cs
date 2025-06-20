@@ -1,9 +1,22 @@
+using Microsoft.EntityFrameworkCore;
+using PastryShop.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
+builder.Services.AddScoped<IPieRepository, MockPieRepository>();
+builder.Services.AddScoped<ICategoryRepository, MockCategoryRepository>();
+
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<PastryShopDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PastryShopConnectionString"));
+});
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
