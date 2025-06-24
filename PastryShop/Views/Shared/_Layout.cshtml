@@ -15,7 +15,7 @@
              aria-label="Bethany's Pie Shop navigation header">
             <div class="container-xl">
                 <a class="navbar-brand" asp-controller="Home" asp-action="Index">
-                    <img src="images/bethanys-pie-shop-logo_horiz-white.png" width="151" height="47" class="d-inline-block align-top mb-2 mt-1"
+                    <img src="~/Images/bethanys-pie-shop-logo_horiz-white.png" width="151" height="47" class="d-inline-block align-top mb-2 mt-1"
                          alt="PastryShop Logo">
                 </a>
 
@@ -28,16 +28,21 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <vc:category-menu></vc:category-menu>
                         <li class="nav-item">
-                            <a asp-controller="Contact" asp-action="Index" class="nav-link">Contact</a>
+
+                            <a style="color:#fff; text-decoration:none" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+
+                             <a style="color:#fff; text-decoration:none" asp-controller="Pie" asp-action="List">Pies</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Pie" asp-action="Search">
+                           @*  <a class="nav-link" asp-controller="Pie" asp-action="Search">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                                 </svg>
-                            </a>
+                            </a> *@
                         </li>
                     </ul>
                 </div>

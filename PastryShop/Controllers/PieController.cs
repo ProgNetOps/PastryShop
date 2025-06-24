@@ -21,9 +21,16 @@ public class PieController : Controller
 
         PieListViewModel list = new()
         {
-            CurrentCategory = "Cheese Caked",
+            CurrentCategory = "All Pies",
             Pies = _pieRepository.AllPies
         };
         return View(list);
+    }
+
+    public IActionResult Details(int id)
+    {
+        var pie = _pieRepository.AllPies.FirstOrDefault(x => x.PieId == id);
+
+        return pie == null ? NotFound() : View(pie);
     }
 }
