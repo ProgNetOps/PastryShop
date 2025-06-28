@@ -8,6 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IPieRepository, PieRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
+//Invoke the GetCart() method, passing it the Service Provider instance.
+//The scoped instance ensures that the Shopping Cart
+builder.Services.AddScoped<IShoppingCart,ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
+
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<PastryShopDbContext>(options =>
@@ -28,6 +35,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseSession(); 
 
 app.UseRouting();
 
